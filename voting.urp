@@ -1,0 +1,7 @@
+database dbname=voting.db
+sql voting.sql
+rewrite url Voting/main
+allow url /style.css
+safeGet Voting/results
+
+voting
